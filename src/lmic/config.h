@@ -5,9 +5,9 @@
 // gcc commandline. Since Arduino does not allow easily modifying the
 // compiler commandline, use this file instead.
 
-//#define CFG_eu868 1
+#define CFG_eu868 1
 //#define CFG_us915 1
-#define CFG_au915 1
+//#define CFG_au915 1
 
 #if defined(CFG_au915)
 	#define CFG_us915 1
